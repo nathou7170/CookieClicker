@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie <span class="blue">Clicker</span> </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <audio src="sound/0407.mp3" id="audio">
+    </audio>
+
+    <h1>Cookie Clicker</h1>
+    <div class="container">
+
+        <div class="cookie">
+            <img src="img/cookie.png" id="cookie">
+            <div class="score">
+                <p>Score cookies :
+                    <span id="score">0 </span>
+                </p>
+                <p>Cookies per click :
+                    <span id="perclick">0</span>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+
+            <div class="button">
+                <div class="btn-container">
+                    <button id="x2">x2</button>
+                    <p> price :
+                        <span id="pricex2"></span>
+                    </p>
+                </div>
+
+                <div class="btn-container">
+                    <button id="x5">x5</button>
+                    <p>
+                        price : <span id="pricex5"></span>
+                    </p>
+                </div>
+
+                <div class="btn-container">
+                    <button id="auto">auto-clicker</button>
+                    <p>
+                        price : <span id="price-auto"></span>
+                    </p>
+                </div>
+
+                <div class="btn-container">
+                    <button id="bonus">Bonus <span id="bonustimer"></span></button>
+
+                    <p>
+                        price : <span id="price-bonus"></span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

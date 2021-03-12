@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: url(img/bg2.png);
+  background-size: cover;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+#x2 {
+  background-color: #3da1d8;
+  color: white;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#x5 {
+  background-color: #3da1d8;
+  color: white;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#auto {
+  background-color: #3da1d8;
+  color: white;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#bonus {
+  background: #3da1d8;
+  color: white;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  padding: 2rem;
+  margin-top: -3rem;
+}
+
+.blue {
+  color: #3da1d8;
+}
+
+.cookie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.score p {
+  margin: 0;
+}
+
+.right {
+  padding-top: 3rem;
+  margin-right: 12rem;
+  color: #000;
+}
+
+.right p {
+  font-size: 2rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 3rem;
+  margin-top: 4rem;
+}
